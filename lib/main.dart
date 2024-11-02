@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("City Tour"),
+          title: const Text("City Tour"),
           backgroundColor: Colors.blue,
         ),
         body: Padding(
@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
                               fit: BoxFit.cover,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           ClipRRect(
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
                               fit: BoxFit.cover,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           ClipRRect(
@@ -65,10 +65,10 @@ class _MyAppState extends State<MyApp> {
                         ],
                       ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
-                Row(
+                const Row(
                   children: [
                     Text(
                       "Explore, Enjoy, Experience",
@@ -77,13 +77,13 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                SizedBox(
-                  height: 20,
+                const SizedBox(
+                  height: 15,
                 ),
-                Text(
+                const Text(
                     "Explore the charm of our city's hidden gems and embark on a journey to discover the rich cultural heritage, breathtaking landscapes, and unique experiences thatawait you. From historic landmarks to vibrant markets and serene natural wonders, our city offers a tapestry of experiences that will captivate your senses. Join us in exploring the beautyof our city and create memories that will last a lifetime. Come and visit our city's treasurestoday",
                     style: TextStyle()),
-                SizedBox(height: 20,),
+                const SizedBox(height: 20,),
                 Image.network("https://picsum.photos/id/162/200/300",
                   width: double.infinity ,
                   fit: BoxFit.cover,
